@@ -16,7 +16,7 @@ public class SumInRoot2LeafPath {
 			System.out.println("Sum does not exist in any Path");
 		}
 	}
-	public static boolean maxSumPathRoot2Leaf(Node root, int[] path,int index,int sum) {
+	private static boolean maxSumPathRoot2Leaf(Node root, int[] path,int index,int sum) {
 		if(null == root) {
 			return false;
 		}
