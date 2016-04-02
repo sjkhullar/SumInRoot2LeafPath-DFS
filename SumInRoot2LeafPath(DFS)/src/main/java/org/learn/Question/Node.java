@@ -1,4 +1,4 @@
-package org.learn.PrepareTree;
+package org.learn.Question;
 
 public class Node {
 	public int data;

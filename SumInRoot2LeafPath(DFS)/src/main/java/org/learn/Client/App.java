@@ -1,6 +1,6 @@
 package org.learn.Client;
 
-import org.learn.PrepareTree.Node;
+import org.learn.Question.Node;
 import org.learn.Question.SumInRoot2LeafPath;
 
 public class App 
@@ -19,6 +19,6 @@ public class App
 		root.right.right = Node.createNode(60);
 
 		int[] path = new int[512];
-    	SumInRoot2LeafPath.maxSumPath(root,path,110);    	
+    	SumInRoot2LeafPath.sumInRoot2LeafPath(root,path,110);    	
     }
 }
